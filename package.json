@@ -1,0 +1,20 @@
+{
+  "name": "taller-bootstrap",
+  "version": "1.0.0",
+  "description": "Diseño de una web utilizando bootstrap 5 para mostrar talleres y eventos",
+  "main": "index.html",
+  "scripts": {
+    "scss": "npx sass --watch scss:css"
+  },
+  "keywords": [
+    "bootstrap",
+    "bootstrap5",
+    "designer",
+    "responsive"
+  ],
+  "author": "javiluli",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.43.4"
+  }
+}

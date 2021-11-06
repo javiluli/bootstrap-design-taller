@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="img/icono.PNG" type="image/x-icon" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Talleres, seminarios y jornadas de formacion empresarial</title>
+  </head>
+  <body>
+    <!-- As a heading -->
+    <div class="w-100 bg-primary">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="navbar-brand">
+                  <img src="./img/icono.PNG" alt="" width="28" height="30" />
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Talleres</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Contactanos</a>
+                </li>
+              </ul>
+              <span class="navbar-text"> Talleres, seminarios y jornadas de formacion empresarial </span>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+      <main class="my-3">
+        <!-- Colapse -->
+        <p>
+          <button class="btn btn-primary text-white position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            SEPTIEMBRE- DICIEMBRE 2018 FORMACIÓN EMPRESARIAL
+            <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle dot-animate">
+              <span class="visually-hidden"></span>
+            </span>
+          </button>
+        </p>
+        <div class="collapse" id="collapseExample">
+          <div class="modal-body">
+            <p>
+              El Centro de Empresas Municipal (CEM) de Boadilla del Monte, es un espacio para el emprendimiento. Entre los meses de septiembre y diciembre de 2018, ofrecemos una completa oferta
+              formativa para dinamizar el emprendimiento e impulsar el conocimiento en varias áreas de interés; coaching ejecutivo/estratégico, marketing, asesoramiento económico y financiero para
+              emprender y mentoring para emprender.
+            </p>
+            <p>
+              En esta nueva edición contamos con formadores especialistas que nos van a ofrecer estrategias de comunicación y gestión comercial, claves para activar una mente vendedora, herramientas
+              para activar una creatividad rentable, elementos para conocer el entorno en el que vamos a emprender, la estructura de la cuenta de resultados y cómo rentabilizar nuestro perfil
+              profesional de linkedin. Las jornadas de formación que os presentamos en este díptico van dirigidas a profesionales, emprendedores, directivos, equipos comerciales y en general a
+              cualquier persona que quiera emprender una idea de negocio.
+            </p>
+          </div>
+        </div>
+
+        <div class="row" id="masonry" data-masonry='{"percentPosition": true }'></div>
+      </main>
+    </div>
+
+    <footer class="w-100 bg-gradient-primary">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-12 col-xl-6">
+            <p class="fst-italic text-white rotate">
+              Las jornadas de formación que os presentamos son gratuitas y van dirigidas a profesionales, emprendedores, directivos, equipos comerciales y en general a cualquier persona que quiera
+              emprender una idea de negocio. Para asistir a cualquiera de las jornadas, es necesario inscribirse enviando un correo electrónico a empresas@aytoboadilla.com indicando el título de la
+              jornada que le interesa en el asunto y el nombre completo de los asistentes
+            </p>
+          </div>
+          <div class="col-lg-12 col-xl-6">
+            <div class="row mb-3">
+              <div class="col-11 text-white text-end d-flex flex-column justify-content-center">
+                <span>ÁREA DE DESARROLLO EMPRESARIAL, CENTRO DE EMPRESAS MUNICIPAL</span>
+                <span>C/ Francisco Alonso, 2 Boadilla del Monte</span>
+              </div>
+              <div class="col-1 text-end">
+                <img src="icons/info-circle-fill.svg" class="footer__icon" />
+              </div>
+            </div>
+
+            <div class="row mb-3">
+              <div class="col-11 text-white text-end d-flex flex-column justify-content-center">
+                <span>91 372 62 73</span>
+              </div>
+              <div class="col-1 text-end">
+                <img src="icons/telephone-fill.svg" class="footer__icon" />
+              </div>
+            </div>
+
+            <div class="row mb-3">
+              <div class="col-11 text-white text-end d-flex flex-column justify-content-center">
+                <span>pait@aytoboadilla.com empresas@aytoboadilla.com</span>
+              </div>
+              <div class="col-1 text-end">
+                <img src="icons/envelope-fill.svg" class="footer__icon" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal con formulario de contacto -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Nuevo mensaje</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form class="row g-3 needs-validation" novalidate>
+              <div class="col-12">
+                <label for="validationCustom01" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="validationCustom01" required />
+              </div>
+
+              <div class="col-12">
+                <label for="validationCustom02" class="form-label">Correo electronico</label>
+                <input type="email" class="form-control" id="validationCustom02" required />
+              </div>
+
+              <div class="mb-3">
+                <label for="validationTextarea" class="form-label">Sugerencias y preguntas</label>
+                <textarea class="form-control" id="validationTextarea" placeholder="Envianos tus preguntas y sugerencias" required></textarea>
+              </div>
+
+              <div class="modal-footer">
+                <button class="btn btn-primary text-white" type="submit">Enviar</button>
+                <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function () {
+        "use strict";
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll(".needs-validation");
+
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms).forEach(function (form) {
+          form.addEventListener(
+            "submit",
+            function (event) {
+              if (!form.checkValidity()) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+
+              form.classList.add("was-validated");
+            },
+            false
+          );
+        });
+      })();
+    </script>
+
+    <!-- Massonry layout -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+      integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D"
+      crossorigin="anonymous"
+      async
+    ></script>
+
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>
